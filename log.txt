@@ -1,0 +1,60 @@
+2024-10-12 11:09:07.597 +08:00 [INF] Hello, Serilog!
+2024-10-12 11:09:41.731 +08:00 [INF] Hello, World !
+2024-10-12 11:11:35.392 +08:00 [INF] Now listening on: http://localhost:5062
+2024-10-12 11:11:35.406 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-12 11:11:35.407 +08:00 [INF] Hosting environment: Development
+2024-10-12 11:11:35.409 +08:00 [INF] Content root path: C:\Users\ASUS\Desktop\temps\dotnet-core\loggerSample
+2024-10-12 11:12:27.335 +08:00 [INF] Application is shutting down...
+2024-10-12 11:12:39.317 +08:00 [INF] Now listening on: http://localhost:5062
+2024-10-12 11:12:39.330 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-12 11:12:39.331 +08:00 [INF] Hosting environment: Development
+2024-10-12 11:12:39.333 +08:00 [INF] Content root path: C:\Users\ASUS\Desktop\temps\dotnet-core\loggerSample
+2024-10-12 11:13:17.757 +08:00 [INF] Application is shutting down...
+2024-10-12 11:13:20.420 +08:00 [INF] Now listening on: http://localhost:5062
+2024-10-12 11:13:20.433 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-12 11:13:20.434 +08:00 [INF] Hosting environment: Development
+2024-10-12 11:13:20.434 +08:00 [INF] Content root path: C:\Users\ASUS\Desktop\temps\dotnet-core\loggerSample
+2024-10-12 11:13:26.844 +08:00 [INF] Application is shutting down...
+2024-10-12 11:13:41.389 +08:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.Extensions.Hosting.DiagnosticContext' while attempting to activate 'Serilog.AspNetCore.RequestLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-10-12 11:13:41.407 +08:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.Extensions.Hosting.DiagnosticContext' while attempting to activate 'Serilog.AspNetCore.RequestLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-10-12 11:14:05.457 +08:00 [INF] Now listening on: http://localhost:5062
+2024-10-12 11:14:05.468 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-12 11:14:05.469 +08:00 [INF] Hosting environment: Development
+2024-10-12 11:14:05.469 +08:00 [INF] Content root path: C:\Users\ASUS\Desktop\temps\dotnet-core\loggerSample
+2024-10-12 11:14:29.249 +08:00 [INF] Application is shutting down...
+2024-10-12 11:25:52.681 +08:00 [INF] Now listening on: http://localhost:5062
+2024-10-12 11:25:52.695 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-12 11:25:52.696 +08:00 [INF] Hosting environment: Development
+2024-10-12 11:25:52.698 +08:00 [INF] Content root path: C:\Users\ASUS\Desktop\temps\dotnet-core\loggerSample
+2024-10-12 11:25:58.250 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/weatherforecast/ - null null
+2024-10-12 11:25:58.320 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-10-12 11:25:58.323 +08:00 [INF] Executing endpoint 'HTTP: GET /weatherforecast'
+2024-10-12 11:25:58.324 +08:00 [INF] run start : GetWeatherForecast
+2024-10-12 11:25:58.327 +08:00 [INF] request data : ["WeatherForecast { Date = 2024/10/13, TemperatureC = 33, Summary = Hot, TemperatureF = 91 }","WeatherForecast { Date = 2024/10/14, TemperatureC = -16, Summary = Freezing, TemperatureF = 4 }","WeatherForecast { Date = 2024/10/15, TemperatureC = -4, Summary = Scorching, TemperatureF = 25 }","WeatherForecast { Date = 2024/10/16, TemperatureC = 17, Summary = Chilly, TemperatureF = 62 }","WeatherForecast { Date = 2024/10/17, TemperatureC = 34, Summary = Chilly, TemperatureF = 93 }"]
+2024-10-12 11:25:58.332 +08:00 [INF] run end : GetWeatherForecast
+2024-10-12 11:25:58.336 +08:00 [INF] Executed endpoint 'HTTP: GET /weatherforecast'
+2024-10-12 11:25:58.339 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/weatherforecast/ - 200 null application/json; charset=utf-8 90.4238ms
+2024-10-12 11:32:48.057 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/weatherforecast/ - null null
+2024-10-12 11:32:48.060 +08:00 [INF] Executing endpoint 'HTTP: GET /weatherforecast'
+2024-10-12 11:32:48.061 +08:00 [INF] run start : GetWeatherForecast
+2024-10-12 11:32:48.061 +08:00 [INF] request data : ["WeatherForecast { Date = 2024/10/13, TemperatureC = 1, Summary = Mild, TemperatureF = 33 }","WeatherForecast { Date = 2024/10/14, TemperatureC = -3, Summary = Hot, TemperatureF = 27 }","WeatherForecast { Date = 2024/10/15, TemperatureC = -3, Summary = Scorching, TemperatureF = 27 }","WeatherForecast { Date = 2024/10/16, TemperatureC = 26, Summary = Bracing, TemperatureF = 78 }","WeatherForecast { Date = 2024/10/17, TemperatureC = -6, Summary = Bracing, TemperatureF = 22 }"]
+2024-10-12 11:32:48.063 +08:00 [INF] run end : GetWeatherForecast
+2024-10-12 11:32:48.064 +08:00 [INF] Executed endpoint 'HTTP: GET /weatherforecast'
+2024-10-12 11:32:48.065 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/weatherforecast/ - 200 null application/json; charset=utf-8 8.086ms
+2024-10-12 11:40:38.379 +08:00 [INF] Application is shutting down...
